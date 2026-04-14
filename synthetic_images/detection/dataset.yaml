@@ -1,0 +1,9 @@
+# YOLO dataset configuration for detection
+path: .
+train: images/train
+val: images/val
+# Class names
+names:
+  0: defect
+  1: rust
+  2: ok

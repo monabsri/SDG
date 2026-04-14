@@ -1,0 +1,14 @@
+{
+  "version": "1.0.0",
+  "backend": "file",
+  "format": "YOLO",
+  "train_val_split": 0.7,
+  "date_created": "2026-04-14T14:04:11.008904",
+  "date_updated": "2026-04-14T14:09:57.468282",
+  "class_mapping": {
+    "defect": 0,
+    "rust": 1,
+    "ok": 2
+  },
+  "num_frames": 10520
+}

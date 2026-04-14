@@ -1,0 +1,10 @@
+# YOLO dataset configuration for detection
+path: /home/team_omd/synthetic_data_generation_training_workflow/palletjack_sdg/real_world_T2/
+train: images
+val: images
+test: images
+# Class names
+names:
+  0: defect
+  1: rust
+  2: ok
