@@ -8,10 +8,13 @@ The dataset includes images and labels for three classes: ok, rust, and defect.
 Dataset structure: 
 • /synthetic_images/: 10000 synthetic images and .txt labels generated via NVIDIA 
 Isaac Sim 
+
 o Includes three classes: Intact (ok), Geometry defects (defect), and Surface 
 defects (rust) 
+
 • /real_word_T1/: First real-world gear images and their corresponding labels used for 
 evaluation and hybrid training strategy 
+
 • /real_world_T2/: Second real-world gear images and their corresponding labels used 
 for further evaluation
 
