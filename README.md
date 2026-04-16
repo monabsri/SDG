@@ -26,7 +26,6 @@ The repository includes a Python script for dataset generation, including scene 
 ## Usage
 The dataset can be used for training object detection models such as YOLO.
 Annotations are provided in YOLO format.
-#s for releases in the future, it is a good idea to list them in the README.
 
 ## License
 For open source projects, say how it is licensed.
