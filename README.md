@@ -30,4 +30,5 @@ Annotations are provided in YOLO format.
 
 ## License
 This project is licensed under the MIT License – see the LICENSE file for details.
-
+The code references NVIDIA MDL materials available within Isaac Sim installations. 
+No NVIDIA assets or material files are redistributed in this repository.
