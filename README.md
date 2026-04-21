@@ -29,6 +29,5 @@ The dataset can be used for training object detection models such as YOLO.
 Annotations are provided in YOLO format.
 
 ## License
-For open source projects, say how it is licensed.
-
+This project is licensed under the MIT License – see the LICENSE file for details.
 
