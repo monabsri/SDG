@@ -190,14 +190,14 @@ def main():
             with cam:
                 rep.modify.attribute("focalLength",rep.distribution.uniform(20.0, 45.0))
                 rep.modify.pose(
-                    position=rep.distribution.choice([
-                        (0.0,0.0,4.2),
-                        (0.65,-1.8,1.15),
-                    ]),
-                    look_at=rep.distribution.choice([
-                        (0.0, 0.0, 0.25),
-                        (0.0, 0.0, 0.30),
-                    ]),
+                    position=rep.distribution.uniform(
+                        (-2.5,-2.5,0.5),
+                        (2.5,2.5,5.55),
+                    ),
+                    look_at=rep.distribution.uniform(
+                        (-0.25, -0.25, 0.10),
+                        (0.25, 0.25, 0.45),
+                    ),
                 )
 
             rep.randomizer.sphere_lights()
